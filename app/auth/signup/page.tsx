@@ -204,6 +204,7 @@ const SignUpPage = () => {
           <button
             type="submit"
             className="w-full bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700 focus:outline-none"
+            onClick={()=>{router.push("./verify")}}
           >
             Sign Up
           </button>
